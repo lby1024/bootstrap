@@ -1,0 +1,90 @@
+/* 
+顶部导航
+1 : 背景颜色设置为黑色
+2 : 去掉边框  
+*/
+.my-header{
+    background-color: skyblue;
+    border: 0;
+}
+/* 
+顶部导航的logo
+1 : 调整位置
+*/
+.my-header .logo{
+    padding-top: 6px;
+}
+/* 
+顶部导航的logo
+1 : 设置logo图片大小
+*/
+.my-header .logo-pic{
+    height: 40px;
+}
+/*  
+折叠按钮
+1 : 设置按钮的大小
+2 : 设置按钮的图片
+*/
+.navbar-toggle {
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    background-image: url('../img/bag.png');
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* 
+折叠按钮
+1 : 去掉按钮的边框
+*/
+.navbar-inverse .navbar-toggle {
+    border: 0;
+}
+/* 
+折叠按钮
+1 : 当hover时, 背景图片变色
+*/
+.navbar-inverse .navbar-toggle:hover{
+    background-color: skyblue;
+    background-image: url('../img/bag (1).png');
+}
+/* 
+导航栏
+1 : 改变字体颜色
+*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-weight: bolder;
+}
+/* 
+导航栏
+1 : 当hover时, 字体颜色变为黑色
+*/
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #333;
+}
+/* 
+导航栏
+1 : 当hover时, 背景颜色变为白色
+*/
+.navbar-inverse .navbar-nav>li:hover{
+    background-color: #fff;
+}
+/* 
+折叠列表
+1 : 将折叠列表边框变为白色
+*/
+.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+/* 
+搜索框
+1 : 设置搜索框的宽度
+2 : 调整搜索框的位置
+*/
+.input-group {
+    margin-top: 8px;
+    width: 210px;
+}
